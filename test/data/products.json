@@ -3,18 +3,21 @@
     "name": "cafe campesino",
     "desc": "cafe negro con endulzante ecológico",
     "store": "juan valdez",
+    "image": "https://images.app.goo.gl/knV8ZgQX5GMsoLz78",
     "price": 3000
   },
   {
     "name": "capuccino",
     "desc": "capuccino con crema ecológica",
     "store": "starbucks",
+    "image": "https://images.app.goo.gl/FzNg2vXZsAexkz367",
     "price": 5000
   },
   {
     "name": "maleta 20x20",
     "desc": "maleta de pasta ecológica",
     "store": "totto",
+    "image": "https://images.app.goo.gl/WuDj9FL1N9PxvYuF7",
     "price": 120000
   },
   {
