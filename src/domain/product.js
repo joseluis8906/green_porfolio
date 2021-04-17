@@ -58,4 +58,8 @@ export class Repository {
     page = page * 10
     return this.data.array.slice(page, page + 10)
   }
+
+  find (productId) {
+    return this.data.map[productId]
+  }
 }
