@@ -58,6 +58,7 @@ export class Repository {
     }
 
     page -= 1
+    page = page * 10
     return this.data.array.slice(page, page + 11)
   }
 }
