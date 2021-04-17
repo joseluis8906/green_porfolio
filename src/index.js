@@ -1,3 +1,5 @@
+import cluster from 'cluster'
+import os from 'os'
 import express from 'express'
 import config from 'config'
 import { Repository } from './domain/product.js'
@@ -24,6 +26,18 @@ server.get('/:page', (req, res) => {
   }
 })
 
-server.listen(config.get('server.port'), config.get('server.host'), () => {
-  console.info(`server running at http://${config.get('server.host')}:${config.get('server.port')}`)
-})
+const cpus = os.cpus().length
+if (cluster.isMaster) {
+  console.info(`master ${process.pid}`)
+  for (let i = 0; i < cpus; i++) {
+    cluster.fork()
+  }
+
+  cluster.on('exit', (worker) => {
+    console.info(`worker ${worker.process.pid} died`)
+  })
+} else {
+  server.listen(config.get('server.port'), config.get('server.host'), () => {
+    console.info(`server running at http://${config.get('server.host')}:${config.get('server.port')}`)
+  })
+}
