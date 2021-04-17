@@ -16,5 +16,59 @@
     "desc": "maleta de pasta ecológica",
     "store": "totto",
     "price": 120000
+  },
+  {
+    "name": "chaqueta",
+    "desc": "chaqueta tela ecológica",
+    "store": "totto",
+    "price": 100000
+  },
+  {
+    "name": "bolso mano",
+    "desc": "bolso ecológica",
+    "store": "levis",
+    "price": 120000
+  },
+  {
+    "name": "papel higienico",
+    "desc": "papel ecológica",
+    "store": "suave",
+    "price": 120000
+  },
+  {
+    "name": "libreta",
+    "desc": "libreta ecológica",
+    "store": "norma",
+    "price": 18000
+  },
+  {
+    "name": "cerveza",
+    "desc": "cerveza de trigo",
+    "store": "BBC",
+    "price": 12000
+  },
+  {
+    "name": "porta retrato",
+    "desc": "porta retrato de pasta ecológica",
+    "store": "imagen",
+    "price": 20000
+  },
+  {
+    "name": "colchon",
+    "desc": "colchon reciclado",
+    "store": "wonder",
+    "price": 1200000
+  },
+  {
+    "name": "hamburguesa",
+    "desc": "hamburguesa vegetariana",
+    "store": "Burguer",
+    "price": 120000
+  },
+  {
+    "name": "cepillo de dientes",
+    "desc": "cepillo de dientes ecológico",
+    "store": "colgate",
+    "price": 120000
   }
 ]
