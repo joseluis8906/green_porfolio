@@ -6,7 +6,7 @@ export class FetchPaginated {
     this.repo = repo
     const products = JSON.parse(fs.readFileSync('./test/data/products.json'))
     for (const p of products) {
-      this.repo.save(new Product(p.name, p.desc, p.store, p.price))
+      this.repo.save(new Product(p.name, p.desc, p.image, p.store, p.price))
     }
   }
 

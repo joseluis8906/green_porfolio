@@ -13,10 +13,11 @@ export class InvalidPageException {
 }
 
 export class Product {
-  constructor (name, desc, store, price) {
+  constructor (name, desc, image, store, price) {
     this.name = name
     this.desc = desc
     this.store = store
+    this.image = image
     this.price = price
   }
 
@@ -46,10 +47,6 @@ export class Repository {
     this.data.map[product.id()] = product
     this.data.array.push(product)
     this.length += 1
-  }
-
-  find (id) {
-    return this.data.map[id]
   }
 
   all (page) {
