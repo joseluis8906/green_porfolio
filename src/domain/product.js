@@ -1,6 +1,6 @@
 export class ProductAlreadyExistsException {
-  constructor (product) {
-    this.message = `${product} already exists`
+  constructor (productId) {
+    this.message = `${productId} already exists`
     this.name = 'ProductAlreadyExistsException'
   }
 }
