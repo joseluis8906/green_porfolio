@@ -1,0 +1,20 @@
+[
+  {
+    "name": "cafe campesino",
+    "desc": "cafe negro con endulzante ecológico",
+    "store": "juan valdez",
+    "price": 3000
+  },
+  {
+    "name": "capuccino",
+    "desc": "capuccino con crema ecológica",
+    "store": "starbucks",
+    "price": 5000
+  },
+  {
+    "name": "maleta 20x20",
+    "desc": "maleta de pasta ecológica",
+    "store": "totto",
+    "price": 120000
+  }
+]
